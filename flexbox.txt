@@ -1,0 +1,56 @@
+seleccionar todo:                                                     *
+seleccionar los elementos B que siguen directamente al elemento A:    objeto +
+seleccionar los elementos B junto al A:                               objeto ~  
+seleccionar los elementos que están directamente dentro de otro:      A > B     selecciona todos los B dentro de A
+selecciona todos los elementos del primer hijo p.                     p:first-child
+seleccionar elementos por separado dentro de otros elementos:         li:only-child   ej. plate apple: only-child 
+
+
+
+
+align-items: a la derecha, cambia a horizontal.
+justify-content: hacia abajo,  cambia a vertical
+align-self: sus valores son usados para un elemento específico
+align-content:  agrupa
+
+
+display: flex;  --> usar esta propiedad para que tome estos valores: 
+flex-start: Alinea elementos al lado izquierdo del contenedor.
+flex-end: Alinea elementos al lado derecho del contenedor.
+center: Alinea elementos en el centro del contenedor.
+space-between: Muestra elementos con la misma distancia entre ellos.
+space-around: Muestra elementos con la misma separación alrededor de ellos.
+baseline: Muestra elementos en la línea base del contenedor
+stretch: Elementos se estiran para ajustarse al contenedor.
+
+flex-direction:
+
+row: Elementos son colocados en la misma dirección del texto.
+row-reverse: Elementos son colocados en la dirección opuesta al texto.
+column: Elementos se colocan de arriba hacia abajo.
+column-reverse: Elementos se colocan de abajo hacia arriba.
+
+order:5   -mueve el elemento 5 espacios
+order:-5
+
+flex-wrap, 
+nowrap: Cada elemento se ajusta en una sola línea.
+wrap: los elementos se envuelven alrededor de líneas adicionales.
+wrap-reverse: Los elementos se envuelven alrededor de líneas adicionales en reversa.
+
+
+/* flex-flow: <'flex-direction'> */
+flex-flow: row;
+flex-flow: row-reverse;
+flex-flow: column;
+flex-flow: column-reverse;
+
+/* flex-flow: <'flex-wrap'> */
+flex-flow: nowrap;
+flex-flow: wrap;
+flex-flow: wrap-reverse;
+
+/* flex-flow: <'flex-direction'> and <'flex-wrap'> */
+flex-flow: row nowrap;
+flex-flow: column wrap;
+flex-flow: column-reverse wrap-reverse;

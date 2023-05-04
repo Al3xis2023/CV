@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    font-family: cursive;
+    font-size: large;
+    justify-content: center;
+}
+
+body {
+    background-color: rgba(162, 187, 196, 0.603);
+}
+
+
+h1 {
+
+    color: rgb(7, 66, 34);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h2 {
+    display: ruby-base;
+    font-family: cursive;
+    align-content: normal;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+h3 {
+    color: rgb(25, 5, 48);
+    font-size: 17px;
+    font-family: cursive;
+    align-self: center;
+
+}
+
+.foto {
+    margin-right: 50px;
+}
+
+
+.textoFoto {
+    color: rgb(25, 5, 48);
+    font-size: 19px;
+    font-family: cursive;
+    align-self: center;
+    position: relative;
+    left: 220px;
+    top: 1px;
+}
+
+#nombre {
+    text-align: left;
+}
+
+.perfil {
+
+    padding-top: 25px;
+    font-size: 18px;
+    border-top: solid 3px rgb(54, 8, 8);
+    margin-top: 30px;
+}
+
+
+#saludo {
+
+    padding-top: 25px;
+    border-top: solid 3px rgb(54, 8, 8);
+    margin-top: 30px;
+    position: relative;
+
+}
+
+
+#skills {
+
+    padding-top: 25px;
+    border-top: solid 3px rgb(54, 8, 8);
+    margin-top: 30px;
+
+}
